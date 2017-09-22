@@ -1,0 +1,18 @@
+<div class="panel panel-default" ng-init="showFilme()">
+	<div class="panel-heading">
+	  <p class="panel-title">Informação do Filme</p>
+	</div>
+	<div class="panel-body">
+		<form>
+		<div class="form-group">
+		 <label class="form-control">Nome: {{ filme.nome }}</label>
+		 <label class="form-control">Ano: {{ filme.ano }}</label>
+		 <label class="form-control">Categoria: {{ filme.categoria }}</label>
+		 <label class="form-control">Diretor: {{ filme.diretor }}</label>
+		 <label class="form-control">Sinopse: {{ filme.sinopse }}</label>
+		 <label class="form-control">ID: {{ filme._id }}</label>
+		<a href="#/filmes" class="btn btn-default"> Cancel</a>
+		</div>
+	</form>		
+    <div>
+<div>

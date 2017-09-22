@@ -1,0 +1,30 @@
+<div class="panel panel-default">
+	<div class="panel-heading">
+	  <p class="panel-title"><span style="color:#5bc0de;" class="glyphicon glyphicon-plus"> </span> Adiciona um novo Filme
+	</div>
+	<div class="panel-body">
+		<form ng-submit="addFilme()">
+    <div class="form-group">
+      <label for="nome">Nome:</label>
+      <input type="text" class="form-control" id="nome" ng-model="filme.nome">
+    </div>
+    <div class="form-group">
+      <label for="ano">Ano:</label>
+      <input type="text" class="form-control" id="ano" ng-model="filme.ano">
+    </div>
+    <div class="form-group">
+      <label for="categoria">Categoria:</label>
+      <input type="text" class="form-control" id="categoria" ng-model="filme.categoria">
+    </div>
+    <div class="form-group">
+      <label for="diretor">Diretor</label>
+      <input type="text" class="form-control" id="diretor" ng-model="filme.diretor">
+      <div class="form-group">
+      <label for="sinopse">Sinopse:</label>
+      <input type="text" class="form-control" id="sinopse" ng-model="filme.sinopse">
+    </div>
+    <button type="submit" style="color:#5bc0de;" class="btn btn-default">Salvar</button>
+    <a href="#/employees" class="btn btn-default"> Cancelar</a>
+</form>		
+    <div>
+<div>
